@@ -1,5 +1,5 @@
-let animais = ['GATO', 'CACHORRO', 'PÁSSARO', 'PEIXE']
-for(letra of animais){
-    console.log(letra)
-}
+let animais = "gato, cachorro, pássaro, peixe"
+
+console.log(animais.toUpperCase())
+
 

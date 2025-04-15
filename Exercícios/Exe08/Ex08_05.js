@@ -1,11 +1,7 @@
-let numero1 = "1"
-let numero2 = "2"
-let numero3 = "3"
-let numero4 = "4"
-let numero5 = "5"
+let ListaNumeros = ["1", "2", "3", "4", "5"]
 
-console.log(`Número: ${numero1}, seu dobro: ${numero1 * 2}`)
-console.log(`Número: ${numero2}, seu dobro: ${numero2 * 2}`)
-console.log(`Número: ${numero3}, seu dobro: ${numero3 * 2}`)
-console.log(`Número: ${numero4}, seu dobro: ${numero4 * 2}`)
-console.log(`Número: ${numero5}, seu dobro: ${numero5 * 2}`)
+
+// Para cada nome da listaNomes, escreva um nome
+for(let numero of ListaNumeros){
+    console.log(`Número: ${numero}, seu dobro: ${numero * 2}`)
+}
