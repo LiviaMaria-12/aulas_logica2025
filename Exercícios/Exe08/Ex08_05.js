@@ -1,7 +1,9 @@
-let ListaNumeros = ["1", "2", "3", "4", "5"]
 
+ let numeros = []
 
-// Para cada nome da listaNomes, escreva um nome
-for(let numero of ListaNumeros){
-    console.log(`Número: ${numero}, seu dobro: ${numero * 2}`)
+for(let i = 0; 9 < 5; i++){
+
+ let numeroaleatorio = Math.floor(Math.random() * 100) + 1
+numeros.push(numeroaleatorio)
+console.log(`O dobro de: ${numeros[i]}: ${numeros[1] * 2} `)
 }

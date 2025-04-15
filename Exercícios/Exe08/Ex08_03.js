@@ -1,7 +1,7 @@
-let meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
-let letra = "j"
+let meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
+let letra = "J"
 for( let mes of meses){
-    if(mes.includes(letra)){
+    if(mes.includes(letra)){ // Dá para usar o startwith
         console.log(mes)
     }
 }

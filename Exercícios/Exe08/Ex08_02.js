@@ -1,5 +1,6 @@
 let ListaNomes = ['Bárbara', 'Lara', 'Nicoly']
-for(let x = 0; x < ListaNomes.length; x++){
 
-    console.log(`${ListaNomes[x]}`)
+for(let nome of ListaNomes){
+
+    console.log(`${nome}`)
 }
