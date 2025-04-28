@@ -1,21 +1,12 @@
 
-function Multiplicação(nr1, nr2, operacao){
-    if(operacao == '+' ){
-        console.log(`${nr1 + nr2}`)
-
-    }if(operacao == "-"){
-        console.log(`${nr1 - nr2}`)
-        
-    }if(operacao == "*"){
-        console.log(`${nr1 * nr2}`)
-
-    }if(operacao == "**"){
-        console.log(`${nr1 ** nr2}`)
-        
-    }if(operacao == "/"){
-        console.log(`${nr1 / nr2}`)
+function Divisão(nr1, nr2){
+    if(nr2 == 0){
+        console.log("Erro: Divisão por zero não é possível.")
+        return
     }
+    let resultado = nr1 / nr2
+    console.log(`O resultado da divisão de ${nr1} / ${nr2} = ${resultado}`)
 }
-console.log(Multiplicação(2, 3, "+"))
-console.log(Multiplicação(8, 8, "-"))
-console.log(Multiplicação(6, 3, "*"))
+Divisão(14,7)
+Divisão(9,3)
+Divisão(12,3)

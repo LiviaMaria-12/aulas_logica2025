@@ -1,9 +1,8 @@
 
 function Tabuada(nr){
-    for(let i = 1; i < 11; i++){
-        let calculo = nr * i
-        let resultado = calculo
-        console.log(resultado)
+    console.log(`Tabuada do ${nr}: `)
+    for(let i = 1; i <= 10; i++){
+        console.log(`${nr} X ${i} = ${nr * i}`)
     }
 }
 console.log(Tabuada(2))
