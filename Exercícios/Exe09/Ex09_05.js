@@ -1,9 +1,12 @@
-let listaNumeros = ["0",'1', '2', '3', '4', '5']
-let senha = 0
+
 function Senha(nr){
+    let senha = 0
     for(let i = 0; i < nr; i++){
-    numeroSorteado = listaNumeros.Math.floor(Math.random() * 100) + 1
+    numeroSorteado = Math.floor(Math.random() * 100) + 1
+    senha += String (numeroSorteado)
 
     }
+    console.log(senha)
 
 }
+Senha(5)
